@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200&display=swap');
+body{
+    font-family: 'Montagu Slab', serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height:15vh;
+    background-color: rgb(174, 207, 245);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h1, h2{
+    text-align: center;
+    font-size: 35px;
+}
+h1{
+    font-size: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.left{
+    box-sizing: border-box;
+    width: 25vw;
+    height: 88.75vh;
+    background-color: rgb(245, 196, 255);
+}
+.left ul{
+    list-style-type: none;
+    font-size: 30px;
+}
+ul li:hover{
+    font-size: larger;
+    color: rgb(255, 255, 255); 
+    transition: .3s; 
+}
+.img{
+    align-items: center;
+    padding-left: 200px;
+}
+.right{
+    background-color: rgb(200, 173, 252);
+    padding: 20px;
+    margin: 0px;
+    display: inline-block;
+    width: 75vw;
+    height: 85vh;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+.right h3{
+    margin: 25px;
+}
+.square{
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: rgb(149, 82, 236);
+    width: 125px;
+    height: 125px;
+}
+.card:hover{
+    width: 175px;
+    height: 175px;
+    background-color: rgb(85, 82, 245);
+    transition: .5s;
+}
+.footer{
+    background-color: rgba(11, 213, 248, 0.432);
+    height: 20vh;
+    width: 100vw;
+    bottom:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
